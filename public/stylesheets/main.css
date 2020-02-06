@@ -1,0 +1,68 @@
+.jumbotron {
+  background-image: url("https://wallpaperaccess.com/full/6313.jpg");
+  box-shadow: inset 0 0 0 1000px rgba(232,88,81,.55);
+  transition: box-shadow 0.3s ease-in-out;
+  color: white;
+  padding-bottom: 80px; }
+.jumbotron:hover {
+    background-image: url("https://wallpaperaccess.com/full/6313.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(232,88,81,.2);
+    color: white;
+    padding-bottom: 80px; }
+.jumbotron .btn-primary {
+  background: #845ac7;
+  border-color: #845ac7; }
+.jumbotron .btn-primary:hover {
+  background: #7646c1; }
+.jumbotron p {
+  color: white;
+  max-width: 75%;
+  margin: 1em auto 2em; }
+.navbar + .jumbotron {
+  margin-top: -20px; }
+.navbar-custom {
+    background-color: #d86361; }
+.intro {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*Add custom cursor so it auto inherits font styles*/
+.typed-cursor {
+  content: '|';
+  display: inline;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+  }
+/*Custom cursor animation*/
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+  }
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+  }
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+  }
+.avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  transition: transform .2s;
+  border: 2px solid white;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  }
+.avatar:hover {
+  transform: scale(1.2);
+  }
+.btn:hover {
+  transform: scale(1.05);
+  }
