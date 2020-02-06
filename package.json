@@ -7,10 +7,9 @@
     "ejs": "^3.0.1",
     "express": "^4.17.1"
   },
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"prestart": "npm install",
+    "prestart": "npm install",
     "start": "node index.js"
   },
   "devDependencies": {},
